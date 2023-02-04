@@ -12,7 +12,7 @@ bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_KEY"))
 def send_welcome(message):
     bot.reply_to(message, "Введите адрес дома, я покажу где стоит моноблок, и какие дома к нему подключены")
 
-#132
+#132123
 @bot.message_handler(content_types=['text'])
 def get_user_text(message):
     if message.text == message.text:
